@@ -22,6 +22,7 @@ Sample screenshot (defaut permessions)
 chmod 764 demo.txt
 
 ```
+
 Sample Screenshot (after changing the permessions)
 
 ![alt text](/images/modified%20permessions.png)
