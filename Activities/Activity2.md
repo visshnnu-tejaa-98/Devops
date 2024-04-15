@@ -9,17 +9,19 @@ mkdir home
 # Creating a demo.txt file inside home directory
 touch demo.txt
 
-# Sample screenshot (defaut permessions)
+# Checking the permession of demo.txt
+ls -l
+```
+
+Sample screenshot (defaut permessions)
 
 ![alt text](/images/default%20permessions.png)
 
-# Checking the permession of demo.txt
-ls -l
-
+```bash
 # Changing the permession so that any user can read it, group can read/write & owner can read/write/execute it.
 chmod 764 demo.txt
 
-# Sample Screenshot (after changing the permessions)
+```
+Sample Screenshot (after changing the permessions)
 
 ![alt text](/images/modified%20permessions.png)
-```
