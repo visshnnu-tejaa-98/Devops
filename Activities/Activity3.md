@@ -7,6 +7,7 @@ nslookup guvi.in
 ```
 
 Sample Screenshot:
+
 ![alt text](/images/Activity3/nslookup.png)
 
 ### How do I find my CPU/memory usage of my server?
@@ -16,6 +17,7 @@ top
 ```
 
 Sample Screenshot:
+
 ![alt text](/images/Activity3/top.png)
 
 ### Test the connectivity between 2 nodes?
