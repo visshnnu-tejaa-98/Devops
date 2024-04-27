@@ -89,6 +89,7 @@ done
 ```
 
 **Sample output**
+
 ![alt text](/images/Activity6/array_op.png)
 
 ### 4. C-Styled for loop
@@ -113,6 +114,7 @@ done
 ```
 
 **Sample screenshot**
+
 ![alt text](/images/Activity6/iterative_op.png)
 
 ### 5. Infinite for loop
@@ -194,4 +196,5 @@ done
 ```
 
 **Smaple screenshot**
+
 ![alt text](/images/Activity6/until_loop_op.png)
