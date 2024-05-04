@@ -1,0 +1,8 @@
+services:
+my_details:
+  image: custom_docker_page:1.0
+  container_name: custom_docker_page_compose
+  ports:
+    - 8086:80
+  volumes:
+    - ./imp_data:/var/opt/nginx
