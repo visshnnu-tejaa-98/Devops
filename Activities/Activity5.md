@@ -35,4 +35,4 @@ sed '5, ${/welcome/s/give/learning/g}' test.txt
 
 **Output Screenshot:**
 
-![alt text](image.png)
+![alt text](/images/Activity5/image.png)
