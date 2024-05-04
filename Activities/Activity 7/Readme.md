@@ -110,7 +110,7 @@
 4. Build the docker file
 
    ```bash
-   docker build -t my_details:1.0
+   docker build -t my_details:1.0 .
    ```
 
    **Sample Screenshot**
