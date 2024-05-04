@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Docker Page</title>
+  </head>
+  <body
+    style="
+      text-align: center;
+      background-color: cyan;
+      font-weight: 900;
+      font-size: 20px;
+      font-family: Helvetica, Arial, sans-serif;
+    "
+  >
+    <img
+      src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png"
+    />
+    <h1>This is the custom Docker page</h1>
+    <h2>This container was deployed</h2>
+    <div id="date"></div>
+    <script>
+      var date = new Date();
+      document.getElementById("date").innerHTML = date.toLocaleString();
+    </script>
+  </body>
+</html>
