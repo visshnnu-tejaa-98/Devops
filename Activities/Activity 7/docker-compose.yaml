@@ -1,0 +1,6 @@
+services:
+  my_details:
+    image: my_details:1.0
+    container_name: my_details_compose
+    ports:
+      - 8086:80
