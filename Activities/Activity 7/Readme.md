@@ -10,6 +10,7 @@
 4. Select Instance type as **t2.micro**
 5. Generate a Key pair and select it
 6. Create an security group and click on **launch instance** button
+7. Allow traffic from all TCP ports
 
 ### Step 2: Install the docker
 
@@ -129,13 +130,20 @@
 
    ![alt text](/images/Activity7/docker_images_1.png)
 
-### Step 4: Creating docker compose file
+### Step 5: Creating docker compose file
 
 1. Create a new file named with **docker-compose.yaml**
 
-2. Add the following data in to that file
+2. Install docker-compose package
+
+   ```bash
+   sudo apt install docker-compose
+   ```
+
+3. Add the following data in to docker-compose.yaml file
 
    ```yaml
+   ---
    services:
      my_details:
        image: my_details:1.0
@@ -144,7 +152,7 @@
          - 8086:80
    ```
 
-3. Run the docker compose file using the below command
+4. Run the docker compose file using the below command
 
    ```bash
    docker compose up -d
@@ -154,7 +162,7 @@
 
    ![alt text](/images/Activity7/docker-compose-run.png)
 
-4. Copy the Public IP Address and open 8086 port in browser
+5. Copy the Public IP Address and open 8086 port in browser
 
    **Sample Screenshot**
 
