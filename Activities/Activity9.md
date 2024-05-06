@@ -2,7 +2,7 @@
 
 #### Install docker on EC2 and explore the docker commands (docker images, containers, volumes, network)
 
-<mark>Please Reload couple of times, At times, screenshots may not load all times as more number od screen shots are attached</mark>
+```Please Reload couple of times, At times, screenshots may not load all times as more number od screen shots are attached```
 
 ## Docker Image commands
 
