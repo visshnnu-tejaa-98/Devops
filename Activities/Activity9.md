@@ -112,6 +112,7 @@ docker images
 ![alt text](/images/Activity9/tag-ubuntu-img.png)
 
 **Listing images**
+
 ![alt text](/images/Activity9/tag-list-img.png)
 
 ### 7. To remove an image
@@ -201,13 +202,13 @@ docker tag ubuntu:latest visshnnu/test:4.0
 docker push visshnnu/test:3.0
 ```
 
-#### Screenshot
+#### Screenshots
 
-**From Terminal**
+From Terminal:
 
 ![alt text](/images/Activity9/img-push.png)
 
-**From Docker account**
+From Docker account:
 
 ![alt text](/images/Activity9/img-repo.png)
 
