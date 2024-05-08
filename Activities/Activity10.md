@@ -1,8 +1,8 @@
 # Activity 10
 
-## Launch jenkins and explore creating projects and users
+### Launch jenkins and explore creating projects and users
 
-### Step 1: Install Jenkins in to EC2 Instance Server
+## Step 1: Install Jenkins in to EC2 Instance Server
 
 1. Create an EC2 instance with min of 2GB Storage
 2. Install the following commands to install jenkins
@@ -33,7 +33,7 @@
 
    ![alt text](/images/Activity10/jenkins-version.png)
 
-### Step 2: Launch Jenkins
+## Step 2: Launch Jenkins
 
 1. Copy tour public_ip and open 8080 in browser
 
@@ -64,7 +64,7 @@
 
 8. Click on **Start using jenkins** button in next screen, Here you will be navigated to dash board of jenkins
 
-### Step 3: Creating a project
+## Step 3: Creating a project
 
 1. Click on **new item** in left side panel
 
@@ -95,7 +95,7 @@
 5. There ia a play buttion right side to each project, if you click it will trigger the build. Post build the below one is the screenshot
    ![alt text](/images/Activity10/build.png)
 
-### Step 4: Creating users
+## Step 4: Creating users
 
 1. Go to Dashboard > manage jenkins > Click on plugins > click on Available plugins
 
